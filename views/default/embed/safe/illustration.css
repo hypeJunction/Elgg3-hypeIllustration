@@ -1,0 +1,31 @@
+figure {
+	position: relative;
+}
+
+figure figcaption {
+	position: absolute;
+	bottom: 0;
+	background: rgba(255, 255, 255, 0.3);
+	left: 0;
+	right: 0;
+	width: 100%;
+	color: #fff;
+	text-align: right;
+	font-size: 11px;
+	padding: 0.25rem 0.5rem;
+	text-shadow: 1px 1px #000;
+}
+
+figure img {
+	display: inline-block;
+	border-radius: 3px;
+	vertical-align: middle;
+}
+
+figure figcaption a {
+	color: #fff;
+}
+
+figure figcaption > *:not(:first-child) {
+	margin-left: 0.5rem;
+}

@@ -1,0 +1,62 @@
+
+.illustration-cover-libary {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.illustration-cover-library-photo {
+	padding-bottom: 60%;
+	display: inline-block;
+	width: 100%;
+	background-size: cover;
+	background-position: 50%;
+	border-radius: 3px;
+	box-shadow: 0px 0px 0 1px #eee;
+	position: relative;
+	cursor: pointer;
+}
+
+.illustration-cover-pick-confirm {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 1rem;
+}
+
+.illustration-cover-library-input:checked + label .illustration-cover-pick-confirm {
+	display: block;
+}
+
+.illustration-cover-library-attribution {
+	position: absolute;
+	bottom: 0;
+	padding: 0.25rem 0.5rem;
+	font-size: 11px;
+	display: flex;
+	background: rgba(255, 255, 255, 0.5);
+	width: 100%;
+}
+
+.illustration-cover-library-provider {
+	margin-left: auto;
+}
+
+.illustration-cover-library-photo a {
+	display: inline-block;
+	color: #000;
+	font-weight: 600;
+}
+
+.illustration-cover-library-input {
+	display: none;
+}
+
+.illustration-cover-library-input:checked + label {
+	box-shadow: 0 0 0 2px $(border-color-highlight);
+}
+
+.illustration-cover-library-input:checked + label .illustration-cover-pick-confirm {
+	display: block;
+}

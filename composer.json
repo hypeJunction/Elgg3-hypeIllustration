@@ -1,0 +1,29 @@
+{
+	"name": "hypejunction/hypeillustration",
+	"type": "elgg-plugin",
+	"description": "Illustrate posts using images from Unsplash",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "embed", "image", "illustration"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"extra": {
+		"installer-name": "hypeIllustration"
+	},
+	"require": {
+		"php": ">=7.0",
+		"composer/installers": "~1.0",
+		"unsplash/unsplash": "^2.4"
+	},
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	}
+}
