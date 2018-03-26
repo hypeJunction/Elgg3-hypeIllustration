@@ -21,7 +21,7 @@ class SetCoverArtwork {
 		}
 
 		list($prefix, $id) = explode(':', $entity->{'cover:uid'});
-		if ($prefix !== 'illustration') {
+		if ($prefix !== 'unsplash') {
 			return;
 		}
 
