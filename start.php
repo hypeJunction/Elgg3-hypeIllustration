@@ -11,6 +11,9 @@ return function () {
 	elgg_register_event_handler('init', 'system', function () {
 
 		elgg_register_plugin_hook_handler('fields', 'object', \hypeJunction\Illustration\AddFormField::class);
+		elgg_register_plugin_hook_handler('fields', 'group', \hypeJunction\Illustration\AddFormField::class);
+		elgg_register_plugin_hook_handler('fields', 'user', \hypeJunction\Illustration\AddFormField::class);
+
 		elgg_register_plugin_hook_handler('entity:cover:url', 'all', \hypeJunction\Illustration\SetCoverArtwork::class);
 
 		elgg_extend_view('elgg.css', 'illustration.css');
