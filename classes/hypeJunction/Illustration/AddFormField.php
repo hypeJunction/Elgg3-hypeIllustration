@@ -96,6 +96,9 @@ class AddFormField {
 				);
 			},
 			'#priority' => 400,
+			'extended' => function (\ElggEntity $entity) {
+				return $entity instanceof \ElggObject;
+			},
 		];
 
 		return $fields;
