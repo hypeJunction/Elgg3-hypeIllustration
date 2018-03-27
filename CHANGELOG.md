@@ -1,3 +1,13 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.1.0...1.1.1) (2018-03-27)
+
+
+### Bug Fixes
+
+* **fields:** fix form setter ([0167dba](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/commit/0167dba))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.0.2...1.1.0) (2018-03-27)
 
