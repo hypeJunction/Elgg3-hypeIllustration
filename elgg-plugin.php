@@ -5,6 +5,9 @@ return [
 		'illustrations/embed' => [
 			'controller' => \hypeJunction\Illustration\GenerateEmbedCode::class,
 		],
+		'cover/pick' => [
+			'controller' => \hypeJunction\Illustration\CoverPickAction::class,
+		],
 	],
 	'routes' => [
 		'illustrations:callback' => [
@@ -17,6 +20,10 @@ return [
 			'middleware' => [
 				\Elgg\Router\Middleware\AjaxGatekeeper::class,
 			],
-		]
+		],
+		'cover:pick' => [
+			'path' => '/cover/pick/{guid}',
+			'resource' => 'hero/cover/pick',
+		],
 	],
 ];

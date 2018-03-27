@@ -21,6 +21,7 @@ return function () {
 		elgg_extend_view('elgg/wysiwyg.css', 'embed/safe/illustration.css');
 
 		elgg_register_plugin_hook_handler('register', 'menu:embed', \hypeJunction\Illustration\EmbedMenu::class);
+		elgg_register_plugin_hook_handler('register', 'menu:cover', \hypeJunction\Illustration\CoverMenu::class);
 	});
 
 };
