@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.0.2...1.1.0) (2018-03-27)
+
+
+### Features
+
+* **hero:** integrate with hypeHero ([111b64a](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/commit/111b64a))
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.0.1...1.0.2) (2018-03-26)
 
