@@ -1,3 +1,13 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.1.1...1.1.2) (2018-03-28)
+
+
+### Bug Fixes
+
+* **fields:** sync with new fields API ([4b0350a](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/commit/4b0350a))
+
+
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.1.0...1.1.1) (2018-03-27)
 
