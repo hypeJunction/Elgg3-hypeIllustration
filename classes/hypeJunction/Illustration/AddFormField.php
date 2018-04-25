@@ -25,10 +25,6 @@ class AddFormField {
 		$fields = $hook->getValue();
 		/* @var $fields Collection */
 
-		if (!$fields->has('cover')) {
-			return null;
-		}
-
 		$fields->add('cover_artwork', new CoverArtworkField([
 			'type' => 'post/cover_artwork',
 			'section' => 'sidebar',
