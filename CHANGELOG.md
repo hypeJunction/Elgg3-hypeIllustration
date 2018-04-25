@@ -1,3 +1,13 @@
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.1.2...1.1.3) (2018-04-25)
+
+
+### Bug Fixes
+
+* **fields:** add cover artwork field regardless of other fields ([8131d67](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/commit/8131d67))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.1.1...1.1.2) (2018-03-28)
 
