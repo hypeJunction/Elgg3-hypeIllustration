@@ -19,9 +19,9 @@ if (elgg()->{'posts.illustrations'}->init()) {
 
 echo elgg_view_field([
 	'#type' => 'text',
-	'#label' => elgg_echo('illustration:app:id'),
-	'name' => 'params[unsplash_app_id]',
-	'value' => $entity->unsplash_app_id,
+	'#label' => elgg_echo('illustration:app:key'),
+	'name' => 'params[unsplash_app_key]',
+	'value' => $entity->unsplash_app_key,
 ]);
 
 echo elgg_view_field([
@@ -33,9 +33,9 @@ echo elgg_view_field([
 
 echo elgg_view_field([
 	'#type' => 'text',
-	'#label' => elgg_echo('illustration:app:name'),
-	'name' => 'params[unsplash_app_name]',
-	'value' => $entity->unsplash_app_name,
+	'#label' => elgg_echo('illustration:app:id'),
+	'name' => 'params[unsplash_app_id]',
+	'value' => $entity->unsplash_app_id,
 ]);
 
 

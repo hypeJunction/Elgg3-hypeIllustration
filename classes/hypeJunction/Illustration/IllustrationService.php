@@ -38,12 +38,12 @@ class IllustrationService {
 	public function init() {
 		$plugin = elgg_get_plugin_from_id('hypeIllustration');
 
-		if ($plugin->unsplash_app_id && $plugin->unsplash_app_secret && $plugin->unsplash_app_name) {
+		if ($plugin->unsplash_app_id && $plugin->unsplash_app_secret && $plugin->unsplash_app_key) {
 			\Crew\Unsplash\HttpClient::init([
-				'applicationId' => $plugin->unsplash_app_id,
+				'applicationId' => $plugin->unsplash_app_key,
 				'secret' => $plugin->unsplash_app_secret,
 				'callbackUrl' => elgg_generate_url('illustrations:callback'),
-				'utmSource' => $plugin->unsplash_app_name,
+				'utmSource' => $plugin->unsplash_app_id,
 			]);
 
 			return true;
