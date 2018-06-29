@@ -1,3 +1,13 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.1.4...2.0.0) (2018-06-29)
+
+
+### Features
+
+* **core:** updates and fixes ([ab1c1c7](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/commit/ab1c1c7))
+
+
+
 <a name="1.1.4"></a>
 ## [1.1.4](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.0.0...1.1.4) (2018-05-11)
 
