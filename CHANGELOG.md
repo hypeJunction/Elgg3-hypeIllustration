@@ -1,3 +1,13 @@
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/2.0.0...2.0.1) (2018-10-16)
+
+
+### Bug Fixes
+
+* **cache:** correctly register cache flush event ([36915fc](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/commit/36915fc))
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/hypeJunctionPro/Elgg3-hypeIllustration/compare/1.1.4...2.0.0) (2018-06-29)
 
