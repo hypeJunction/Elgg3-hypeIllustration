@@ -4,7 +4,7 @@ require_once __DIR__ . '/autoloader.php';
 
 return function () {
 
-	elgg_register_plugin_hook_handler('cache:flush', 'system', function () {
+	elgg_register_event_handler('cache:flush', 'system', function () {
 		elgg()->get('posts.illustrations')->flushCache();
 	});
 
